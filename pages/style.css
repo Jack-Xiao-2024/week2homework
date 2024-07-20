@@ -1,0 +1,344 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1.5;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Google字體 */
+
+.bruno-ace-sc-regular {
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+  .container{
+    font-family:"Bruno Ace SC";
+  }
+
+/* nav導覽列 */
+
+.nav{
+    background-color: black;
+}
+
+.nav ul{
+    width: 1297px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+.nav a{
+    display: block;
+    font-family:"Bruno Ace SC";
+    color: white;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 52px 0px 52px 0px;
+}
+
+
+/* 共用css標籤 */
+
+*{
+    box-sizing: border-box;
+}
+
+.f-white{
+    color:white;
+}
+
+.f-64{
+    font-size: 64px;
+}
+
+.f-20{
+    font-size: 20px;
+}
+
+.f-16{
+    font-size: 16px;
+}
+
+.d-f{
+    display: flex;
+}
+
+
+/* banner */
+
+.container{
+    background-color: black;
+}
+
+.banner{
+    width: 1296px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.people img{
+    display: block;
+    width: 636px;
+    padding-top: 72px;
+    padding-bottom: 32px;
+}
+
+.intro{
+    padding-top: 232px;
+}
+
+.hello{
+    color: white;
+    font-size: 64px;
+}
+
+.w_name{
+    color: #00FFA3;
+    font-size: 128px;
+}
+
+.contact{
+    display: inline-block;
+    background-color: white;
+    text-decoration: none;
+    border-radius:32px;
+    padding: 12px 24px 12px 24px;
+    color: black;
+}
+
+/* content */
+
+.content-bg{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+    padding: 160px 0px;
+}
+
+.content{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction{
+    width: 526px;
+}
+
+.introduction p{
+    padding-top: 36px;
+}
+
+.sparkle{
+    margin-top: 32px;
+}
+
+.pictures{
+    width: 746px;
+}
+
+
+
+
+/* about */
+
+.about{
+    background-color: white;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    justify-content: space-around;
+}
+
+.personality{
+    width: 636px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.about-me{
+    width: 526px;
+}
+
+.about-me h2{
+    margin-bottom: 36px;
+}
+
+.box{
+    width: 306px;
+    border: 1px solid #E3E3E3;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
+.box h2 {
+    padding-bottom: 4px;
+}
+
+
+/* Contact me */
+
+.social{
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+    margin: 0 auto;
+    justify-content: center;
+    padding: 96px 0px;
+}
+
+.social-left{
+    align-items: center;
+    width: 657px;
+}
+
+.social-right{
+    width: 526px;
+}
+
+.social-left img{
+    width: 100px;
+    height: 100px;
+}
+
+/* Projects */
+
+.project{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: white;
+    flex-direction: column;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+/* 上下 */
+
+.project-top{
+    margin-bottom: 16px;
+    width: 100%;
+    max-width: 1440px;
+    justify-content: flex-end;
+    
+}
+
+.project-top h2{
+    display: block;
+    width: 746px;
+}
+
+.project-bottom{
+    width: 100%;
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+/* 左右邊 */
+
+.project-left{
+    width: 416px;
+    margin-right: 24px;
+}
+
+
+
+.project-right{
+    flex-direction: column;
+}
+
+.project-read{
+    width: 856px;
+    margin-bottom: 28px;
+}
+
+.project-read-right{
+    margin-left: 24px;
+}
+
+.project-read-right a{
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    font-size: 16px;
+    width: 185px;
+    height:48px;    
+    padding: 7px 24px 12px 24px;
+    /* 這邊see more不知道為什麼不會置中？ */
+    border-radius: 32px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-read-right p{
+    margin-bottom: 76px;
+}
+
+.project-read-right img{
+    width: 24px;
+    margin-left: 4px;
+}
+
+
+
+
+/* footer */
+
+.footer p{
+    display: block;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
